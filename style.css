@@ -1,7 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Marcellus SC", serif;
+    font-family: "Outfit", sans-serif;
+    color: #052824
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
 }
 
 body {
@@ -22,7 +28,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 nav ul {
@@ -34,32 +39,26 @@ nav ul {
         margin: 12px;
 
     }
-
 }
+
 
 .action {
     text-decoration: none;
-    color: #4D360E;
+    color: #052824;
     font-weight: inherit;
     font-size: larger;
-
 }
 
 .action:hover {
     text-decoration: underline;
     text-decoration: bolder;
-
-
-
 }
 
 .promo {
-    background-color: #4D360E;
+    background-color: #732449;
     color: #ffffff;
     display: flex;
     justify-content: space-around;
-
-
 }
 
 
@@ -68,29 +67,119 @@ nav ul {
     height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
-    color: #45817B;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     font-weight: bolder;
-    
 }
 
 h1 {
     font-size: xx-large;
+    padding-top: 70px;
+    font-family: "Marcellus SC", serif;
 }
 
 .papilles {
     font-size: xx-large;
-
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: "Marcellus SC", serif;
 }
 
 .decouvrir {
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
-    background-color: #4D360E;
-    border-radius: 4px;
-    
+    font-family: "Marcellus SC", serif;
+
+}
+
+.decouvrir:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.typo {
+    font-size: large;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+
+}
+
+h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: x-large;
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: large;
+}
+
+.artisanaux-image {
+    height: 200px;
+    border-radius: 5px;
+}
+
+.degustation-image {
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+.cadeaux-image {
+    height: 400px;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.cardouze {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.praline {
+    height: 200px;
+    border-radius: 5px;
+}
+
+.champagne {
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+.chocolat-noir {
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+.assortis {
+    height: 200px;
+    border-radius: 5px;
+}
+
+.chaud {
+    height: 200px;
+    border-radius: 5px;
+}
+
+.mendiants {
+    height: 200px;
+    border-radius: 5px;
+}
+
+.clients{
+    padding-right: 200px;
 }
